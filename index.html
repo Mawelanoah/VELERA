@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f1e9">
+  <meta name="description" content="Shop VELÉRA womenswear: elegant, feminine dresses selected for everyday moments and special occasions in South Africa.">
+  <meta property="og:title" content="VELÉRA — Elegance in Every Moment">
+  <meta property="og:description" content="Discover the VELÉRA edit of feminine dresses.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/velera-logo.svg" type="image/svg+xml">
+  <title>VELÉRA — Elegance in Every Moment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">A considered collection of feminine elegance <span>✦</span> South Africa <span>✦</span> Secure ordering via WhatsApp</div>
+  <header class="site-header">
+    <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <a class="wordmark" href="#" aria-label="VELÉRA home">
+      <span class="brand-name">VELÉRA</span><span class="brand-sub">WOMENSWEAR</span>
+    </a>
+    <nav class="desktop-nav" id="mainNav">
+      <a href="#new-arrivals">NEW ARRIVALS</a>
+      <a href="#shop">SHOP DRESSES</a>
+      <a href="#our-story">OUR STORY</a>
+      <a href="#size-guide">SIZE GUIDE</a>
+      <a href="#faq">HELP & FAQ</a>
+    </nav>
+    <button class="bag-button" id="openBag" aria-label="Open shopping bag">BAG <span id="bagCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">THE VELÉRA EDIT</p>
+        <h1>Elegance in<br><em>every moment.</em></h1>
+        <p class="hero-text">Feminine silhouettes. Timeless details. Pieces that make getting dressed feel special.</p>
+        <a class="dark-button" href="#shop">DISCOVER THE COLLECTION <span>↗</span></a>
+        <p class="hero-note">A little more beautiful, every day.</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Soft champagne-toned editorial fashion placeholder">
+        <div class="hero-art-inner">
+          <span class="art-kicker">THE ART OF DRESSING</span>
+          <div class="silhouette" aria-hidden="true"><span></span></div>
+          <span class="art-bottom">NEW SEASON · 01</span>
+        </div>
+      </div>
+      <div class="hero-index">01 — 03</div>
+    </section>
+
+    <section class="intro-strip">
+      <span>CONFIDENTLY FEMININE</span><i>✦</i><span>EFFORTLESSLY ELEGANT</span><i>✦</i><span>MADE FOR YOUR MOMENTS</span>
+    </section>
+
+    <section class="collection section" id="new-arrivals">
+      <div class="section-heading">
+        <div><p class="eyebrow">CURATED FOR YOU</p><h2>Meet your next <em>favourite.</em></h2></div>
+        <a class="text-link" href="#shop">VIEW THE EDIT <span>↗</span></a>
+      </div>
+      <div class="feature-grid">
+        <a class="feature-card feature-one" href="#shop"><span class="feature-label">01 / THE EVERYDAY EDIT</span><span class="feature-title">Quietly<br>beautiful.</span><span class="feature-cta">EXPLORE DRESSES ↗</span></a>
+        <a class="feature-card feature-two" href="#shop"><span class="feature-label">02 / THE OCCASION EDIT</span><span class="feature-title">A moment<br>to remember.</span><span class="feature-cta">FIND YOUR LOOK ↗</span></a>
+      </div>
+    </section>
+
+    <section class="shop-section section" id="shop">
+      <div class="section-heading shop-heading">
+        <div><p class="eyebrow">THE COLLECTION</p><h2>Shop <em>dresses.</em></h2><p class="muted">A carefully selected wardrobe of feminine favourites.</p></div>
+        <div class="shop-tools"><label class="search-box"><span>⌕</span><input id="productSearch" type="search" placeholder="Search dresses…" aria-label="Search dresses"></label><select id="sortProducts" class="sort-select" aria-label="Sort products"><option value="featured">Featured</option><option value="name">Name A–Z</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option></select></div>
+        <div class="filters" aria-label="Filter products">
+          <button class="filter active" data-filter="all">ALL</button>
+          <button class="filter" data-filter="midi">MIDI</button>
+          <button class="filter" data-filter="maxi">MAXI</button>
+          <button class="filter" data-filter="occasion">OCCASION</button>
+        </div>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="catalogue-note">Only confirmed products, prices and available sizes should be published. Product previews currently shown are sample placeholders.</p>
+    </section>
+
+    <section class="benefit-strip" aria-label="Shopping information">
+      <div><span>✦</span><strong>Curated styles</strong><small>Thoughtfully selected pieces</small></div>
+      <div><span>◇</span><strong>Personal assistance</strong><small>Order support on WhatsApp</small></div>
+      <div><span>⌂</span><strong>South African boutique</strong><small>Delivery details confirmed upfront</small></div>
+    </section>
+
+    <section class="story section" id="our-story">
+      <div class="story-mark">V.</div>
+      <div class="story-copy"><p class="eyebrow">A NOTE FROM VELÉRA</p><h2>Style is personal.<br><em>Elegance is a feeling.</em></h2><p>VELÉRA is a modern women's fashion boutique inspired by confidence, softness and the beauty of thoughtful details. We're building a collection of dresses for the everyday moments and the unforgettable ones.</p><a href="#shop" class="text-link">EXPLORE OUR WORLD ↗</a></div>
+    </section>
+
+    <section class="info-panels section" id="size-guide">
+      <div class="info-panel"><p class="eyebrow">A BETTER FIT</p><h2>Find your <em>size.</em></h2><p>Check the measurements on each product before ordering. If you are between sizes or unsure, message us with your usual size and measurements and we will help you choose.</p><div class="size-table-wrap"><table class="size-table"><thead><tr><th>Size</th><th>Bust</th><th>Waist</th><th>Hips</th></tr></thead><tbody><tr><td>XS</td><td>To be confirmed</td><td>To be confirmed</td><td>To be confirmed</td></tr><tr><td>S</td><td>To be confirmed</td><td>To be confirmed</td><td>To be confirmed</td></tr><tr><td>M</td><td>To be confirmed</td><td>To be confirmed</td><td>To be confirmed</td></tr><tr><td>L</td><td>To be confirmed</td><td>To be confirmed</td><td>To be confirmed</td></tr><tr><td>XL</td><td>To be confirmed</td><td>To be confirmed</td><td>To be confirmed</td></tr></tbody></table></div><small class="muted">Measurements must be replaced with the actual supplier garment measurements before launch.</small></div>
+      <div class="info-panel" id="delivery"><p class="eyebrow">GOOD TO KNOW</p><h2>Delivery & <em>returns.</em></h2><p><strong>Delivery:</strong> Delivery fees, estimated dispatch times and courier options will be confirmed with you before payment. Please make sure your delivery address and contact number are correct.</p><p><strong>Returns & exchanges:</strong> Contact VELÉRA before returning an item. The final policy, eligible conditions and time limits must be clearly published before accepting orders. Faulty or incorrect items should be reported promptly with photos.</p><p><strong>Order updates:</strong> We will confirm stock, total cost and delivery details with you on WhatsApp before you pay.</p></div>
+    </section>
+
+    <section class="faq-section section" id="faq"><div class="section-heading"><div><p class="eyebrow">HERE TO HELP</p><h2>Frequently asked <em>questions.</em></h2></div></div>
+      <details><summary>How do I place an order?</summary><p>Add your chosen dress and size to your bag, then select Order via WhatsApp. We will confirm availability, delivery and the final total with you.</p></details>
+      <details><summary>When should I pay?</summary><p>Please wait for VELÉRA to confirm your order total and availability. We will then provide the correct payment instructions or payment link. Do not pay an unconfirmed amount.</p></details>
+      <details><summary>How long does delivery take?</summary><p>Delivery timing depends on the product and courier. We will confirm the estimated delivery timeframe before you pay.</p></details>
+      <details><summary>Can I change or cancel my order?</summary><p>Contact us as soon as possible on WhatsApp. Changes depend on whether the order has already been placed with the supplier or dispatched.</p></details>
+      <details><summary>How do I choose the right size?</summary><p>Use the size information on the product listing and our size guide. If you are unsure, message us before ordering.</p></details>
+    </section>
+
+    <section class="newsletter">
+      <p class="eyebrow">BE THE FIRST TO KNOW</p><h2>A little note of <em>loveliness.</em></h2><p>Follow our journey and be first to hear about the debut collection.</p>
+      <a class="outline-button" id="followInstagram" href="#" target="_blank" rel="noopener">FOLLOW OUR JOURNEY ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="wordmark footer-wordmark" href="#"><span class="brand-name">VELÉRA</span><span class="brand-sub">WOMENSWEAR</span></a>
+    <p>Elegance in Every Moment.</p>
+    <div class="footer-links"><a href="#shop">SHOP</a><a href="#our-story">OUR STORY</a><a href="#delivery">DELIVERY & RETURNS</a><a href="#faq">FAQ</a><a href="policies.html">POLICIES</a><a id="footerWhatsApp" href="#">WHATSAPP</a></div>
+    <small>© <span id="year"></span> VELÉRA. All rights reserved.</small>
+    <small class="disclaimer">Product previews are placeholders. Replace sample products, measurements, contact details and policies with accurate store information before accepting orders.</small>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="bag-drawer" id="bagDrawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer-head"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your bag</h2></div><button class="close-btn" id="closeBag" aria-label="Close bag">×</button></div>
+    <div id="bagItems" class="bag-items"><p class="empty-bag">Your bag is waiting for something lovely.</p></div>
+    <div class="drawer-bottom"><p class="subtotal">Subtotal <strong id="subtotal">R0</strong></p><p class="small-print">We confirm stock, delivery fees and the final total with you before payment.</p><button class="dark-button full" id="whatsappCheckout">REQUEST ORDER VIA WHATSAPP ↗</button><button class="outline-button full yoco-button" id="yocoCheckout" hidden>CONTINUE TO YOCO PAYMENT ↗</button><p class="small-print">Only use the Yoco link supplied after your order has been confirmed.</p></div>
+  </aside>
+
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal-card"><button class="close-btn modal-close" id="closeModal" aria-label="Close">×</button><div id="modalContent"></div></div>
+  </div>
+  <div class="toast-region" aria-live="polite"></div>
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
